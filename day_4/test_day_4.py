@@ -34,7 +34,7 @@ class TestDay4(unittest.TestCase):
     def test_is_valid_code(self):
         params = [
             (111111, False),
-            (223450, False), # decreasing number
+            (223450, False),  # decreasing number
             (123789, False),  # no double
             (12345, False),  # need to be 6 digits
             (122345, True),
